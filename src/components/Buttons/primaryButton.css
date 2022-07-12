@@ -1,0 +1,12 @@
+.primary-btn{
+    background-color: #FEE600;
+    border-radius: 5px;
+    border: solid 2px black;
+    font-family: "Arial Black";
+    font-size: 24px;
+    padding: 3px 15px;
+    box-shadow:  0 1px 2px rgba(0,0,0,0.07), 
+    0 2px 3px rgba(0,0,0,0.07), 
+    0 3px 4px rgba(0,0,0,0.07), 
+    0 5px 6px rgba(0,0,0,0.07);
+}
