@@ -14,6 +14,17 @@
 
 }
 
+/* colour for the button when mouse hovers over it */
 .primary-btn:hover{
     background-color: #49A259;
 }
+
+/* the theme to have if this route is active */
+/* .primary-btn:hover.active{
+ 
+} */
+
+/* the line under neath the text */
+/* .primary-btn:hover.active::after{
+
+} */
