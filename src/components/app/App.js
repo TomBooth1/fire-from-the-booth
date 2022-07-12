@@ -1,12 +1,13 @@
 
 import './App.css';
 import PrimaryButton from '../Buttons/primaryButtonIndex';
-
+import NavBar from '../Nav-Bar/navBarIndex';
 
 function App() {
   return (
     <div className="App">
-      <PrimaryButton text="Menu"/>
+    <br/>
+      <NavBar/>
     </div>
   );
 }
