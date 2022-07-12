@@ -1,6 +1,6 @@
 .primary-btn{
     background-color: #FEE600;
-    border-radius: 5px;
+    border-radius: 0.5vmax;
     border: solid 0.2vmax black;
     font-family: "Arial Black";
     font-size: 1vmax;
@@ -17,6 +17,8 @@
 /* colour for the button when mouse hovers over it */
 .primary-btn:hover{
     background-color: #49A259;
+    color: white;
+    border: solid 0.2vmax white;
 }
 
 /* the theme to have if this route is active */

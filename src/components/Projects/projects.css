@@ -1,0 +1,95 @@
+.projects{
+    
+}
+
+.projects-banner{
+    display: flex;
+    background-color: #DB3732;
+    box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
+    justify-content: center;
+    align-items: center;
+    padding: 0.4vmax 2vmax;
+    z-index: -1;
+    height: 3vmax;
+    overflow: visible;
+    transition-duration: 0.3s;
+    margin: 10vmax 0px;
+}
+
+.projects-title{
+    background-color: #FEE600;
+    border-radius: 5px;
+    padding: 0.01vmax 2vmax;
+    border: solid 0.5vmax black;
+    box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
+    box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
+    transition-duration: 0.3s;
+
+}
+
+.section-title{
+    font-size: 2.5vmax;
+    margin: 1vmax;
+    transition-duration: 0.3s;
+
+}
+
+
+.react-logo{
+   height: 15vmax;
+   transition-duration: 0.3s;
+
+}
+
+.project-icon-background{
+    display: flex;
+    background-color: #DB3732;
+    box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 20vmax;
+    height: 20vmax;
+    margin: 5vmax;
+    transition-duration: 0.3s;
+
+}
+
+.project-title-container{
+    background-color: #DB3732;
+    color: white;
+    border-radius: 5px;
+    padding: 0.01vmax 2vmax;
+    width: 16vmax;
+    margin: 5vmax;
+    transition-duration: 0.3s;
+
+    box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
+}
+
+.project-icon-title{
+    font-size: 1.3vmax;
+    margin: 1.5vmin 0px;
+    transition-duration: 0.3s;
+
+}
+
+.project-icon-description{
+font-size: 0.8vmax;
+transition-duration: 0.3s;
+   
+}
+
+.project-icons{
+    background-color: #FEE600;
+    
+    transition-duration: 0.3s;
+
+}
+
+.project-titles{
+    background-color: #FEE600;
+    margin-top: 0px;
+    transition-duration: 0.3s;
+    margin-top: -6.5vmax;
+}
