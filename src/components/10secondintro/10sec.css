@@ -1,0 +1,23 @@
+
+
+.ten-second-intro{
+    background-color: #49A259;
+    display: flex;
+    justify-content: center;
+    padding: 2vmax 1vmax;
+    z-index: -1;
+    align-items: center;
+    transition-duration: 0.3s;
+}   
+
+.intro-paragraph{
+    width: 25vmax;
+    font-size: 1.5vmax;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.intro-icon{
+    height: 18vmax;
+    transition-duration: 0.3s;
+}

@@ -7,21 +7,41 @@
     box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
     justify-content: space-between;
     align-items: center;
-    padding: 7px 20px;
+    padding: 0.4vmax 2vmax;
     z-index: -1;
-    height: 30px;
+    height: 2vmax;
     overflow: visible;
+    transition-duration: 0.3s;
+
     
 }
 .nav-btn-container{
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 1vmax;
+    transition-duration: 0.3s;
+
     
 }
 
 .nav-logo{
-    height: 75px;
+    height: 5vmax;
     z-index: 1;
+    transition-duration: 0.3s;
+
     
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition-duration: 0.3s;
+
+  }
+
+  .sticky + .content {
+    padding-top: 3vmin;
+    transition-duration: 0.3s;
+
+  }
