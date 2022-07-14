@@ -1,4 +1,11 @@
 
+#welcome-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 60vmax;
+}
+
 
 .home-welcome{
     display: flex;

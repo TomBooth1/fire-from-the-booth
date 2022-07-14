@@ -1,5 +1,5 @@
 import "./projects.css"
-
+import ProjectIcon from "./ProjectIcons/projectIcon"
 function Projects () {
 
     return (
@@ -9,17 +9,11 @@ function Projects () {
                     <h1 className="section-title">Projects</h1>
                 </div>
             </div>
-
-            <div className="project-icons">
-            <div className="project-icon-background">
-            <img className="react-logo" src={process.env.PUBLIC_URL + '/react-logo-white.png'} alt="react logo" />
-            </div>
-            </div>
-            <div className="project-titles">
-            <div className="project-title-container">
-                <h1 className="project-icon-title">'Make Your Mon'</h1>
-                <p className="project-icon-description"> A React Pokemon Creator</p>
-            </div>
+            <div className="Projects-Container">
+            <ProjectIcon title={"Make Your Mon"} des={"Create Your Own Pokemon"} src={process.env.PUBLIC_URL + '/react-logo-white.png'} alt={"React Logo White"}/>            
+            <ProjectIcon title={"Make Your Mon"} des={"Create Your Own Pokemon"} src={process.env.PUBLIC_URL + '/react-logo-white.png'} alt={"React Logo White"}/>
+            <ProjectIcon title={"Make Your Mon"} des={"Create Your Own Pokemon"} src={process.env.PUBLIC_URL + '/react-logo-white.png'} alt={"React Logo White"}/>
+            <ProjectIcon title={"Make Your Mon"} des={"Create Your Own Pokemon"} src={process.env.PUBLIC_URL + '/react-logo-white.png'} alt={"React Logo White"}/>            
             </div>
         </section>
     )
