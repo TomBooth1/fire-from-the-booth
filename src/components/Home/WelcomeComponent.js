@@ -1,13 +1,11 @@
 import "./home.css"
 
-function WelcomeComponent () {
+function WelcomeComponent (props) {
 return(
     <div id="welcome-container">
-    <img className="home-icon" src={process.env.PUBLIC_URL + '/tab-logo.png'} alt="Flames from Logo" />
+    <img className="home-icon" src={props.src} alt={props.alt} />
            <div className="background-style-welcome">
-           <p className="welcome-paragraph">Welcome, 
-                I’m Tom Booth. 
-                This is my Portfolio.</p>
+           <p className="welcome-paragraph">{props.text}</p>
            </div>
     </div>
 )
