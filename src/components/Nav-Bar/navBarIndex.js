@@ -1,6 +1,7 @@
 import "./navBar.css"
 import PrimaryButton from "../Buttons/primaryButtonIndex"
 
+
 // // When the user scrolls the page, execute myFunction
 // window.onscroll = function() {myFunction()};
 
@@ -23,16 +24,18 @@ import PrimaryButton from "../Buttons/primaryButtonIndex"
 function NavBar (props) {
 
     return (
+        <section className="nav-bar">
         <div className="nav-bar-container">
      <img className="nav-logo" src={process.env.PUBLIC_URL + '/logo-flat.png'} alt="logo" />
      <div className="nav-btn-container">
-     <PrimaryButton text="Home"  onClick={() => {document.getElementById('home').scrollIntoView()}}/>
-    <PrimaryButton text="Projects" onClick={() => {document.getElementById('projects').scrollIntoView()}}/>
+     <PrimaryButton text="Home"  onClick={() => {document.getElementById('home').scrollIntoView({behavior: "smooth", block: "start", inline: "start"})}}/>
+    <PrimaryButton text="Projects" onClick={() => {document.getElementById('projects').scrollIntoView({behavior: "smooth", block: "start", inline: "start"})}}/>
     <PrimaryButton text="Experience"/>
     <PrimaryButton text="About"/>
     <PrimaryButton text="Contact"/>
     </div>
         </div>
+       </section>
     )
 }
 

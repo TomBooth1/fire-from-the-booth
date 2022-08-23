@@ -1,4 +1,13 @@
-
+.nav-bar{
+    padding-top: 1vmin;
+    position: sticky;
+    position: -webkit-sticky;
+position: -moz-sticky;
+position: -o-sticky;
+position: -ms-sticky;
+    top: 0;
+    z-index: 6;
+}
 
 .nav-bar-container{
     
@@ -8,12 +17,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.4vmax 2vmax;
-    z-index: -1;
+    /* z-index: 1; */
     height: 2vmax;
     overflow: visible;
     transition-duration: 0.3s;
-    margin-top: 1vmax;
-
+    /* margin-top: 1vmax; */
+    top: 0;
     
 }
 .nav-btn-container{
@@ -21,6 +30,7 @@
     justify-content: space-between;
     padding: 1vmax;
     transition-duration: 0.3s;
+    /* margin-top: 1vmax; */
 
     
 }
@@ -38,11 +48,12 @@
     top: 0;
     width: 100%;
     transition-duration: 0.3s;
+    /* padding-top: 3vmin; */
 
   }
 
   .sticky + .content {
-    padding-top: 3vmin;
+    padding-top: vmin;
     transition-duration: 0.3s;
 
   }
