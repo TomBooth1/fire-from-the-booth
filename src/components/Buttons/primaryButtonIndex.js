@@ -2,7 +2,7 @@ import "./primaryButton.css"
 
 function PrimaryButton(props){
     return(
-        <button className="primary-btn" 
+        <button className={props.className} 
                 onClick={props.onClick}>
                 {props.text}
         </button>

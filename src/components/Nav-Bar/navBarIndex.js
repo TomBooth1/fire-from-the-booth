@@ -26,13 +26,13 @@ function NavBar (props) {
     return (
         <section className="nav-bar">
         <div className="nav-bar-container">
-     <img className="nav-logo" src={process.env.PUBLIC_URL + '/logo-flat.png'} alt="logo" />
+     <img className="nav-logo" src={process.env.PUBLIC_URL + '/logo-flat.png'} alt="logo" onClick={() => {window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}} />
      <div className="nav-btn-container">
-     <PrimaryButton text="Home"  onClick={() => {document.getElementById('home').scrollIntoView({behavior: "smooth", block: "start", inline: "start"})}}/>
-    <PrimaryButton text="Projects" onClick={() => {document.getElementById('projects').scrollIntoView({behavior: "smooth", block: "start", inline: "start"})}}/>
-    <PrimaryButton text="Experience"/>
-    <PrimaryButton text="About"/>
-    <PrimaryButton text="Contact"/>
+     <PrimaryButton className={"primary-btn-red"} text="Home"  onClick={() => {window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}}/>
+    <PrimaryButton className={"primary-btn-green"} text="Projects" onClick={() => {window.scrollTo({top: 1150, left: 0, behavior: 'smooth'})}}/>
+    <PrimaryButton className={"primary-btn-blue"} text="Experience"/>
+    <PrimaryButton className={"primary-btn-red"} text="About"/>
+    <PrimaryButton className={"primary-btn-green"} text="Contact"/>
     </div>
         </div>
        </section>
@@ -40,3 +40,6 @@ function NavBar (props) {
 }
 
 export default NavBar
+
+
+// onClick={() => {document.getElementById('projects').scrollIntoView({behavior: "smooth", block: "start", inline: "start"})}}

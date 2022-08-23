@@ -1,9 +1,5 @@
 
-.react-logo{
-    height: 10vmax;
-    transition-duration: 0.3s;
- 
- }
+
  
  .project-icon-background{
      display: flex;
@@ -12,8 +8,8 @@
      justify-content: center;
      align-items: center;
      border-radius: 50%;
-     width: 15vmax;
-     height: 15vmax;
+     width: 20vmax;
+     height: 20vmax;
      margin: 5vmax;
      transition-duration: 0.3s;
  
@@ -24,22 +20,25 @@
      color: white;
      border-radius: 5px;
      padding: 0.01vmax 2vmax;
-     width: 10vmax;
+     width: 14vmax;
      margin: 2vmax;
      transition-duration: 0.3s;
- 
+ align-items: center;
      box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
  }
  
  .project-icon-title{
-     font-size: 1vmax;
+     font-size: 1.6vmax;
      margin: 1.5vmin 0px;
      transition-duration: 0.3s;
  
  }
+
+
+
  
  .project-icon-description{
- font-size: 0.7vmax;
+ font-size: 0.8vmax;
  transition-duration: 0.3s;
     
  }

@@ -7,7 +7,7 @@ function ProjectIcon (props) {
         <section className="project-icon-container">
             <div className="project-icon">
             <div className="project-icon-background">
-            <img className="react-logo" src={props.src} alt={props.alt} />
+            <img className={props.imgClassName} src={props.src} alt={props.alt} />
             </div>
             </div>
             <div className="project-titles">

@@ -1,4 +1,13 @@
+.react-logo{
+    height: 15vmax;
+    transition-duration: 0.3s;
+ }
 
+ .react-logo:hover{
+    transition-duration: 0.3s;
+    cursor: pointer;
+    transform: scale(1.02);
+ }
 
 .projects-banner{
     display: flex;
@@ -11,7 +20,7 @@
     height: 3vmax;
     overflow: visible;
     transition-duration: 0.3s;
-    margin: 10vmax 0px;
+    
 }
 
 .projects-title{
