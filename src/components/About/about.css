@@ -1,0 +1,102 @@
+.about-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    font-family: "Arial Black";
+    margin-top: 8vmax;
+    padding-top: 6vmax;
+
+   
+}
+
+
+
+.about-banner{
+    display: flex;
+    background-color: #2766AD;
+    box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
+    justify-content: center;
+    align-items: center;
+    padding: 0.4vmax 2vmax;
+    z-index: -1;
+    height: 3vmax;
+    overflow: visible;
+    transition-duration: 0.3s;
+    
+}
+
+.about-title{
+    background-color: #FEE600;
+    border-radius: 5px;
+    padding: 0.01vmax 2vmax;
+    border: solid 0.5vmax black;
+    box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
+    box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
+    transition-duration: 0.3s;
+    color: black;
+
+}
+
+.section-title{
+    font-size: 2.5vmax;
+    margin: 1vmax;
+    transition-duration: 0.3s;
+
+}
+
+
+.exclamantion-mark{
+    width: 37vmax;
+    height: 37vmax;
+    margin: 2vmax auto;
+    background-color: #2766AD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36vmax;
+    font-family: 'Source Serif Pro', serif;
+    /* font-weight: 700; */
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-top: 7vmax;
+}
+
+
+.skills-and-abilities{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #2766AD;
+    padding: 1.7vmax;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.personality-text-container{
+   
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #2766AD;
+    margin-top: 5vmax;
+    padding: 1.7vmax;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.personality-text{
+    background-color: #2766AD;
+    width: 55%;
+    font-size: 1vmax;
+}
+
+.eye-protection{
+    height: 53%;
+    width: 35%;
+}

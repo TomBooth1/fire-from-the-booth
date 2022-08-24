@@ -1,0 +1,95 @@
+.contact-section{
+    margin-top: 8vmax;
+}
+
+.contact-banner{
+    display: flex;
+    background-color: #DB3732;
+    box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
+    justify-content: center;
+    align-items: center;
+    padding: 0.4vmax 2vmax;
+    z-index: -1;
+    height: 3vmax;
+    overflow: visible;
+    transition-duration: 0.3s;
+    
+}
+
+.contact-title{
+    background-color: #FEE600;
+    border-radius: 5px;
+    padding: 0.01vmax 2vmax;
+    border: solid 0.5vmax black;
+    box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
+    box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
+    transition-duration: 0.3s;
+    color: black;
+
+}
+
+.section-title{
+    font-size: 2.5vmax;
+    margin: 1vmax;
+    transition-duration: 0.3s;
+
+}
+
+.links-container{
+    margin: 5vmax auto;
+    background-color: #DB3732;
+    width: 60%;
+    padding: 1.7vmax;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vmax;
+}
+
+.twitter-link{
+    height: 8.5vmax;
+    
+}
+.twitter-link:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.04);
+}
+
+.linkedin-link{
+    height: 7.5vmax;
+    
+}
+.linkedin-link:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.04);
+}
+
+.email-link{
+    height: 8vmax;
+    
+}
+.email-link:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.04);
+}
+
+.github-link{
+    height: 8vmax;
+    
+}
+.github-link:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.04);
+}
+
+.art-link{
+    height: 8.2vmax;
+    
+}
+.art-link:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.04);
+}

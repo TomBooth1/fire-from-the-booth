@@ -18,8 +18,14 @@
 .primary-btn-green:hover{
     transform: scale(1.03);
     cursor: pointer;
-    text-decoration: underline 2px #49A259;
+    text-decoration: underline 3px #49A259;
 
+}
+
+.primary-btn-green-active{
+    transform: scale(1.03);
+    cursor: pointer;
+    text-decoration: underline 3px #49A259;
 }
 
 
@@ -43,7 +49,7 @@
 .primary-btn-blue:hover{
     transform: scale(1.03);
     cursor: pointer;
-    text-decoration: underline 2px #2766AD;
+    text-decoration: underline 3px #2766AD;
 
 }
 
@@ -68,14 +74,16 @@
 .primary-btn-red:hover{
     transform: scale(1.03);
     cursor: pointer;
-    text-decoration: underline 2px #DB3732;
+    text-decoration: underline 3px #DB3732;
 
 }
 
 
 /* the theme to have if this route is active */
-/* .primary-btn:hover.active{
- 
+/* .primary-btn-red.active{
+    transform: scale(1.03);
+    cursor: pointer;
+    text-decoration: underline 3px #DB3732;
 } */
 
 /* the line under neath the text */

@@ -1,12 +1,39 @@
-.react-logo{
-    height: 15vmax;
+.untrodden-logo{
+    height: 16vmax;
     transition-duration: 0.3s;
+    
  }
 
- .react-logo:hover{
+ .bootcamper-logo{
+    width: 21vmax;
     transition-duration: 0.3s;
+    
+ }
+
+ .fire-logo{
+    height: 14vmax;
+    transition-duration: 0.3s;
+    margin-bottom: 1.5vmax;
+    
+ }
+
+
+ .untrodden-logo:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.04);
     cursor: pointer;
-    transform: scale(1.02);
+ }
+
+ .bootcamper-logo:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.04);
+    cursor: pointer;
+ }
+
+ .fire-logo:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.04);
+    cursor: pointer;
  }
 
 .projects-banner{
@@ -51,7 +78,9 @@
 
 
 
-
+.projects{
+    padding-top: 6vmax;
+}
 
 
 

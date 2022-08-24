@@ -1,0 +1,78 @@
+.experience-section{
+    margin-top: -1vmax;
+    padding-top: 4vmax;
+}
+
+.seperator-line{
+    width: 90%;
+    height: 0.2vmax;
+    background-color: #FEE600;
+    /* margin-top: -1.5vmax; */
+}
+
+.tech-stack-title{
+    color: white;
+    font-size: 2vmax;
+    margin-top: 1vmax;
+    width: 90%;
+}
+.experience-banner{
+    display: flex;
+    background-color: #49A259;
+    box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
+    justify-content: center;
+    align-items: center;
+    padding: 0.4vmax 2vmax;
+    z-index: -1;
+    width: 65%;
+    flex-direction: column;
+    overflow: visible;
+    transition-duration: 0.3s;
+    margin: 4vmax auto;
+    border-radius: 10px;
+    
+}
+
+.experience-title{
+    background-color: #FEE600;
+    border-radius: 5px;
+    padding: 0.01vmax 2vmax;
+    border: solid 0.5vmax black;
+    box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
+    box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
+    transition-duration: 0.3s;
+    margin-top: -3.5vmax;
+
+}
+
+.section-title{
+    font-size: 2.5vmax;
+    margin: 1vmax;
+    transition-duration: 0.3s;
+
+}
+
+.experience-main-text{
+    font-size: 1vmax;
+    transition-duration: 0.3s;
+    color: white;
+    /* margin: 2vmax;
+    padding: 1.5vmax; */
+    width: 90%;
+    margin-top: 3vmax;
+
+}
+
+.tech-stack-image{
+    width: 95%;
+}
+
+.cv-link{
+    height: 9vmax;
+    margin-bottom: 2vmax;
+}
+.cv-link:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.04);
+}
+

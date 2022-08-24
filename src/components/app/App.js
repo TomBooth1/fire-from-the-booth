@@ -7,6 +7,10 @@ import { HashLink as Link } from 'react-router-hash-link'
 import Home from '../Home/HomeIndex';
 import Intro from '../10secondintro/10SecondIntro';
 import Projects from '../Projects/projectsIndex';
+import Experience from '../Experience/experience';
+import About from '../About/about';
+import Contact from '../Contact/contact';
+import Footer from '../footer/footer';
 
 // write a function that goes to x link when clikced.
 const screen = '/#home'
@@ -23,6 +27,10 @@ function App() {
       <Home/>
       <Intro/>
       <Projects/>
+      <Experience/>
+      <About/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

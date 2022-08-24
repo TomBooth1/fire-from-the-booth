@@ -21,7 +21,7 @@ position: -ms-sticky;
     /* z-index: 1; */
     height: 2vmax;
     overflow: visible;
-    transition-duration: 0.3s;
+    transition-duration: 0.3s ease;
     /* margin-top: 1vmax; */
     top: 0;
     
@@ -30,7 +30,7 @@ position: -ms-sticky;
     display: flex;
     justify-content: space-between;
     padding: 1vmax;
-    transition-duration: 0.3s;
+    transition-duration: 0.3s ease;
     /* margin-top: 1vmax; */
 
     
@@ -46,8 +46,8 @@ position: -ms-sticky;
 .nav-logo:hover{
     height: 5vmax;
     z-index: 1;
-    transition-duration: 0.3s;
-    cursor: pointer;
+    transition-duration: 0.3s ease;
+        cursor: pointer;
     transform: scale(1.02);
     
 }
@@ -56,13 +56,13 @@ position: -ms-sticky;
     position: fixed;
     top: 0;
     width: 100%;
-    transition-duration: 0.3s;
+    transition-duration: 0.3s ease;
     /* padding-top: 3vmin; */
 
   }
 
   .sticky + .content {
     padding-top: vmin;
-    transition-duration: 0.3s;
+    transition-duration: 0.3s ease;
 
   }
