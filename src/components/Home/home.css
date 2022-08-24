@@ -35,7 +35,7 @@
 .background-style-welcome{
     background-color: #FEE600;
     border-radius: 1vmax;
-    border: solid 1vmin black;
+    border: solid 1.5vmin black;
     padding: 0px 20px;
     width: 75vmax;
     max-height: 50vmax;
@@ -46,7 +46,7 @@
 }
 
 
-@media screen and (max-width: 1235px) {
+@media screen and (max-width: 1023px) {
     #welcome-container{
        width: 50vmax;
        margin: 0 1vmax;
