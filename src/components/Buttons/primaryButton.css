@@ -141,3 +141,46 @@
 /* .primary-btn:hover.active::after{
 
 } */
+
+
+.primary-btn-home{
+    background-color: #FEE600;
+    border-radius: 0.5vmax;
+    border: solid 0.2vmax black;
+    font-family: "Arial Black";
+    font-size: 1vmax;
+    padding: 0.1vmax 1vmax;
+    box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
+    z-index: 1;
+    margin-left: 0.3vmax;
+    margin-right: 0.3vmax;
+    cursor: pointer;
+    transition-duration: 0.2s;
+
+}
+
+/* colour for the button when mouse hovers over it */
+.primary-btn-home:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+    text-decoration: underline 0.2vmax #2766AD;
+
+}
+
+.primary-btn-home-active{
+    background-color: #FEE600;
+    border-radius: 0.5vmax;
+    border: solid 0.2vmax black;
+    font-family: "Arial Black";
+    font-size: 1vmax;
+    padding: 0.1vmax 1vmax;
+    box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
+    z-index: 1;
+    margin-left: 0.3vmax;
+    margin-right: 0.3vmax;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transform: scale(1.03);
+    cursor: pointer;
+    text-decoration: underline 0.2vmax #2766AD;
+}

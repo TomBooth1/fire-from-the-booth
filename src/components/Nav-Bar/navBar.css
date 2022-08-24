@@ -23,6 +23,7 @@
   transition-duration: 0.3s ease;
   /* margin-top: 1vmax; */
   top: 0;
+  /* margin-top: vmax; */
 }
 
 .nav-btn-container {
@@ -54,9 +55,26 @@
   /* padding-top: 3vmin; */
 }
 
-.sticky + .content {
-  padding-top: vmin;
+/* .sticky + .content {
+  padding-top: 8vmin;
   transition-duration: 0.3s ease;
-}
+} */
 
+
+@media screen and (max-width: 699px) {
+    .nav-bar {
+        padding-top: 2vmax;
+    }
+    
+    .primary-btn-home{
+        display: none;
+    }
+
+    .nav-logo {
+        margin-left: -2vmax;
+    }
+    .nav-btn-container {
+        padding: 0.5vmax;
+    }
+ }
 

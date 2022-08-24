@@ -14,7 +14,7 @@ const [active , setActive] = useState("home")
         <div className="nav-bar-container">
      <img className="nav-logo" src={process.env.PUBLIC_URL + '/logo-flat.png'} alt="logo" onClick={() => {window.scrollTo({top: 0, left: 0, behavior: 'smooth'})}} />
      <div className="nav-btn-container">
-     <PrimaryButton className={"primary-btn-blue"} text="Home"  onClick={() => {
+     <PrimaryButton className={"primary-btn-home"} text="Home"  onClick={() => {
          window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
          
          }}/>
