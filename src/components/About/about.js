@@ -14,11 +14,11 @@ function About() {
       </div>
 
       <p className="skills-and-abilities">
-        TEAMWORK
+      TEAMWORK
         <br></br>
         Possesses a strong ability to adapt within team dynamics gained by
         previous work experience in large and small groups. Understanding the
-        importance of effective collaboration of team members in order to meet a
+        importance of effective collaboration of team members to meet a
         common goal and maximise productivity. Ability to contribute expertise,
         share best practice and follow leadership directives at appropriate
         times, all the while maintaining a safe and inclusive environment.
@@ -40,7 +40,7 @@ function About() {
         customer facing and backstage experiences have enabled me to develop
         advanced customer relation skills requiring mediation, tact and
         diplomacy as well as patience and empathy during all interactions with
-        clients in order to reach the most mutually beneficial outcome.
+        clients to reach the most mutually beneficial outcome.
         <br></br>
         <br></br>
         ADAPTABLE AND VERSATILE
@@ -60,27 +60,27 @@ function About() {
           alt="Wear eye protection sign. White and green."
         ></img>
         <p className="personality-text">
-          I hold myself to a very high set of work standards and love to see my
+        I hold myself to a very high set of work standards and love to see my
           team win causing me to always strive to produce the best quality work
           I and the people around me can.
           <br></br>
           <br></br>I enjoy logic and problem solving and throughout my career
           this has been one of my strengths along with promoting morale and
-          motivating my team mates. This is attributed to my ambitious nature
-          and my desire to progreess to a senior level. Within my work life i
+          motivating my teammates. This is attributed to my ambitious nature
+          and my desire to progress to a senior level. Within my work life I
           have shown strong tenacity and the ability to maintain a high quality
-          of work in order to retain clients.
+          of work to retain clients.
           <br></br>
           <br></br>I am currently entering a life shift where "the future" is
           becoming a prominent question, in turn, prompting my career change. I
-          have always loved technology, computers, the internet and gaming along
+          have always loved technology, computers, the internet, and gaming along
           with a secret desire to get into software development. But with no
-          seemingly attainable route insight. However now I have that and I do
-          not intend to waste it so I can assertain the future im dreaming of.
+          seemingly attainable route insight. However now I have that now, and I do
+          not intend to waste it so I can ascertain the future I’m dreaming of.
           <br></br>
           <br></br>
           In my spare time I love to socialise with my nearest and dearest, play
-          strategy rpg and FPS computer games on console and PC, go on hikes
+          strategy RPG and FPS computer games on console and PC, go on hikes
           with my partner and dog and generally explore the world whilst
           collecting awful jokes. I am often creating things, painting and
           photoshop designs. I like to try anything that I see and think “I

@@ -9,13 +9,13 @@ function Experience() {
           <h1 className="section-title">Experience</h1>
         </div>
         <p className="experience-main-text">
-          I’m a recent Graduate of School Of Code, a 16 week Full Time Bootcamp,
+        I’m a recent Graduate of School of Code, a 16 week Full Time Bootcamp,
           where I have learnt Fullstack Web Development. This course was
           primarily centred on JavaScript and React. It tackled both technical
           coding finesse and practical workplace skills such as ideating, pair
-          programming, presenting, Agile and CI/CD worflow methodologies,
+          programming, presenting, Agile and CI/CD workflow methodologies,
           backlog creation and good engineering practices all whilst in new and
-          uniquely knowledgable teams.
+          uniquely knowledgeable teams.
           <br></br>
           <br></br>
           Along with the hard skills the bootcamp also taught many soft skills
@@ -27,6 +27,7 @@ function Experience() {
           for all things Front-End, UI and UX whilst really enjoying the logic
           and problem solving that comes with back-end development, driving my
           desire to become a Full Stack.
+
         </p>
 
         <h2 className="tech-stack-title">Tech Stack Exposure</h2>

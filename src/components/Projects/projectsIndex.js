@@ -18,7 +18,7 @@ function Projects () {
             <ProjectIcon 
             imgClassName={"untrodden-logo"} 
             title={"Untrodden"} 
-            des={"A community engagement focused site where people can explore and add unique locations in the UK. Built using Next Js, Node Js, Express and SQL among Auth0, Mapbox and React Hook Forms to name but a few. It is my Final 1 Month Project at School of Code created in a team of 5. we implemented Agile worflow and git trunk branching methods to ideate design and create from scratch using figma, phoroshop, trello, miro and jamboard to plan and track our prgress. fianlly we presented our app in a video presentation and an expo style virtual event on kumospace once it was completed."} 
+            des={"A community engagement focused site where people can explore and add unique locations in the UK. Built using Next Js, Node Js, Express and SQL among Auth0, Mapbox and React Hook Forms to name but a few. It is my Final 1 Month Project at School of Code created in a team of 5. we implemented Agile workflow and git trunk branching methods to ideate design and create from scratch using figma, photoshop, trello, miro and jamboard to plan and track our progress. finally we presented our app in a video presentation and an expo style virtual event on kumospace once it was completed."} 
             src={process.env.PUBLIC_URL + '/Untrodden-logo-white.png'} 
             alt={"Untrodden. Secret Places, shared."}
             href={"https://untroddenapp.netlify.app/"}
@@ -36,7 +36,7 @@ function Projects () {
             <ProjectIcon 
             imgClassName={"fire-logo"} 
             title={"Stuff To Do"} 
-            des={"A pretty simple react to-do app created as a consolidation after a whole day of failures and imposter syndrome on my bootcampo. I'm glad I rage made this as it really served as a way to enhance my knowledge of useState and also as a test of effective yet simple styling. I want to add authentication and a backend to this app so that each user can have ther own , different lists, also as a way to test a simple dashboard and potentially a calendar/dated list. Created using React. "} 
+            des={"A pretty simple react to-do app created as a consolidation after a whole day of failures and imposter syndrome on my bootcamp. I'm glad I rage made this as it really served as a way to enhance my knowledge of useState and also as a test of effective yet simple styling. I want to add authentication and a backend to this app so that each user can have their own, different lists, also as a way to test a simple dashboard and potentially a calendar/dated list. Created using React."} 
             src={process.env.PUBLIC_URL + '/tab-icon-no-text-white.png'} 
             alt={"React Logo White"}
             href={"https://stufftodofromthebooth.netlify.app/"}
