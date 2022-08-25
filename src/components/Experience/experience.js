@@ -29,7 +29,7 @@ function Experience() {
           desire to become a Full Stack.
         </p>
 
-        <h2 className="tech-stack-title">Tech Stach Exposure</h2>
+        <h2 className="tech-stack-title">Tech Stack Exposure</h2>
         <div className="seperator-line" />
         <div className="tech-image-container">
           <img
