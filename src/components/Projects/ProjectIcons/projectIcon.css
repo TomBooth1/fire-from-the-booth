@@ -1,13 +1,14 @@
 .project-icon-container{
-    width: 30%;
-}
-
-.project-icon{
+    width: 25vmax;
     display: flex;
     align-items: center;
-    width: 23vmax;
+    flex-direction: column;
 }
- 
+
+/* .project-icon{
+    width: 25vmax;
+}
+  */
  .project-icon-background{
      display: flex;
      background-color: #DB3732;
@@ -15,8 +16,8 @@
      justify-content: center;
      align-items: center;
      border-radius: 50%;
-     width: 27vmax;
-     height: 23vmax;
+     width: 25vmax;
+     height: 25vmax;
      margin: 0 auto;
      margin-top: 1vmax;
      margin-bottom: 4vmax;
@@ -30,14 +31,15 @@
      border-radius: 5px;
      padding: 0.01vmax 2vmax;
      width: 18vmax;
-     margin: 2vmax;
+     /* margin: 2vmax; */
      transition-duration: 0.3s;
      align-items: center;
      box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
+     height: 25vmax;
  }
  
  .project-icon-title{
-     font-size: 1.6vmax;
+     font-size: 1.7vmax;
      margin: 1.7vmin 0px;
      transition-duration: 0.3s;
  
@@ -49,7 +51,7 @@
  .project-icon-description{
  font-size: 0.9vmax;
  transition-duration: 0.3s;
- height:11vmax;
+ height:16vmax;
  width: 18vmax;
  font-family: "Arial Black";
  overflow:auto;
@@ -60,7 +62,7 @@
     
 
  .project-icon-description::-webkit-scrollbar {
-    width: 0px;               /* width of the entire scrollbar */
+    width: 0.5vmax;               /* width of the entire scrollbar */
   }
   
   .project-icon-description::-webkit-scrollbar-track {
@@ -70,7 +72,7 @@
   
   
   .project-icon-description::-webkit-scrollbar-thumb {
-    background-color: transparent;    /* color of the scroll thumb */
+    background-color: rgba(255, 255, 255, 0.383);    /* color of the scroll thumb */
     border-radius: 10px;       /* roundness of the scroll thumb */
    
   }
@@ -90,38 +92,36 @@
     margin-top: -6.5vmax;
 }
 
-/* .project-icon{
-    margin: 0px auto;
-    
-} */
+.project-icon{
+display: flex;
+align-items: center;   
+width: 25vmax;
+
+}
 
 .cta{
     color: #FEE600;
-    font-size: 1.1vmax;
+    font-size: 1.2vmax;
     margin: 0 auto;
-    margin-top: -0.9vmax;
-    margin-bottom: 0;
+    /* margin-top:  */
+    margin-bottom: 1vmax;
     
 }
-.Projects-Container{
-    display: flex;
-    align-content: center;
-    width: 50vw;
-    margin: 0;
-}
+
 
 @media screen and (max-width: 1023px) {
     .project-icon-container{
-        width: 30%;
+        width: 20vmax
     }
-    /* .project-icon{
-        width: 10vmax
-        } */
-
-    .project-icon-background{
+    .project-icon{ 
         width: 20vmax;
-     height: 20vmax;
+        
+        }
+    .project-icon-background{
+        width: 25vmax;
+        height: 20vmax;
     }
+
 
     .project-title-container{
         width: 15vmax;
@@ -130,12 +130,10 @@
 
     }
     .project-icon-description{
-        width: 15vmax;    }
+        width: 15vmax;
+    height: 12vmax;    }
         
-    .Projects-Container{
-        display: flex;
-        align-content: center;
-    }
+   
 
     .project-icon-title{
         font-size: 1.4vmax;
@@ -151,4 +149,5 @@
         margin-bottom: 0.5vmax;
         
     }
+
 }

@@ -13,7 +13,7 @@ function Projects () {
 
             </div>
 
-            <div className="Projects-Container">
+            <div className="projects-container">
 
             <ProjectIcon 
             imgClassName={"untrodden-logo"} 

@@ -8,7 +8,7 @@
     z-index: -1;
     align-items: center;
     transition-duration: 0.3s;
-    margin-bottom: 13vmax;
+    margin-bottom: 3vmax;
 }   
 
 .intro-paragraph{
@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 1023px){
     .ten-second-intro{
-        margin: 3vmax 0;
+        margin: 0
     }
 
     .intro-paragraph{
