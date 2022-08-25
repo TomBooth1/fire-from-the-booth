@@ -1,4 +1,6 @@
-
+.project-icon-container{
+    width: 30%;
+}
 
  
  .project-icon-background{
@@ -10,7 +12,7 @@
      border-radius: 50%;
      width: 23vmax;
      height: 23vmax;
-     margin: 5vmax;
+     margin: 3.5vmax;
      margin-top: 1vmax;
      transition-duration: 0.3s;
  
@@ -22,7 +24,7 @@
      border-radius: 5px;
      padding: 0.01vmax 2vmax;
      width: 18vmax;
-     margin: 2vmax;
+     /* margin: 2vmax; */
      transition-duration: 0.3s;
      align-items: center;
      box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23);
