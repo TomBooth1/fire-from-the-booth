@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    width: 60vmax;
+    /* width: 60vmax; */
 }
 
 
@@ -16,7 +16,7 @@
     z-index: -1;
     height: 4vmax;
     transition-duration: 0.3s;
-    margin: 20vmax 15vmax;
+    margin: 19vmax 14vmax;
 }
 
 .home-icon{
@@ -37,7 +37,7 @@
     border-radius: 1vmax;
     border: solid 1.5vmin black;
     padding: 0px 20px;
-    width: 75vmax;
+    /* width: ; */
     max-height: 50vmax;
     transition-duration: 0.3s;
 

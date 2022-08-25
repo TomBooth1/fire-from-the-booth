@@ -47,19 +47,40 @@
  overflow:auto;
     
  }
+ .project-icon-description{
+    font-size: 0.9vmax;
+    transition-duration: 0.3s;
+    height:11vmax;
+    width: 18vmax;
+    font-family: "Arial Black";
+    overflow:auto;
+       
+    }
+
+    .project-icon-description:hover{
+        font-size: 0.9vmax;
+        transition-duration: 0.3s;
+        height:11vmax;
+        width: 18vmax;
+        font-family: "Arial Black";
+        overflow:auto;
+           
+        }
 
  .project-icon-description::-webkit-scrollbar {
-    width: 1vmin;               /* width of the entire scrollbar */
+    width: 0px;               /* width of the entire scrollbar */
   }
   
   .project-icon-description::-webkit-scrollbar-track {
     background: transparent;        /* color of the tracking area */
   }
+
+  
   
   .project-icon-description::-webkit-scrollbar-thumb {
-    background-color: rgba(255, 255, 255, 0.445);    /* color of the scroll thumb */
+    background-color: transparent;    /* color of the scroll thumb */
     border-radius: 10px;       /* roundness of the scroll thumb */
-    border: 1px solid rgba(255, 255, 255, 0.445);  /* creates padding around scroll thumb */
+   
   }
 
  
