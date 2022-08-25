@@ -16,3 +16,10 @@
     background-color: #FEE600;
     margin: 3vmax;
 }
+
+@media screen and (max-width: 912px) { 
+    .footer{
+        width: 40%;
+
+    }
+}

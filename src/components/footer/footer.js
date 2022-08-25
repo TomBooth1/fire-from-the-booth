@@ -4,7 +4,7 @@ function Footer() {
   return (
     <section id='footer' className='footer-section'>
     
-        <p className='footer'> Ⓒ Tom Booth 2022 </p>
+        <p className='footer'> By Tom Booth. Built in React. Designed in Figma. Ⓒ 2022</p>
       
     </section>
   )
