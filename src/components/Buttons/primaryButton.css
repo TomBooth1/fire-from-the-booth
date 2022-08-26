@@ -2,6 +2,7 @@
     background-color: #FEE600;
     border-radius: 0.5vmax;
     border: solid 0.2vmax black;
+    color: black;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 1vmax;
@@ -28,6 +29,7 @@
     border-radius: 0.5vmax;
     border: solid 0.2vmax black;
     font-family: 'Oswald', sans-serif;
+    color: black;
     font-weight: 700;
     font-size: 1vmax;
     padding: 0.1vmax 1vmax;
@@ -49,6 +51,7 @@
     border-radius: 0.5vmax;
     border: solid 0.2vmax black;
     font-family: 'Oswald', sans-serif;
+    color: black;
     font-weight: 700;
     font-size: 1vmax;
     padding: 0.1vmax 1vmax;
@@ -74,6 +77,7 @@
     border-radius: 0.5vmax;
     border: solid 0.2vmax black;
     font-family: 'Oswald', sans-serif;
+    color: black;
     font-weight: 700;
     font-size: 1vmax;
     padding: 0.1vmax 1vmax;
@@ -96,6 +100,7 @@
     border-radius: 0.5vmax;
     border: solid 0.2vmax black;
     font-family: 'Oswald', sans-serif;
+    color: black;
     font-weight: 700;
     font-size: 1vmax;
     padding: 0.1vmax 1vmax;
@@ -120,6 +125,7 @@
     border-radius: 0.5vmax;
     border: solid 0.2vmax black;
     font-family: 'Oswald', sans-serif;
+    color: black;
     font-weight: 700;
     font-size: 1vmax;
     padding: 0.1vmax 1vmax;
@@ -154,6 +160,7 @@
     border-radius: 0.5vmax;
     border: solid 0.2vmax black;
     font-family: 'Oswald', sans-serif;
+    color: black;
     font-weight: 700;
     font-size: 1vmax;
     padding: 0.1vmax 1vmax;
@@ -169,6 +176,7 @@
 /* colour for the button when mouse hovers over it */
 .primary-btn-home:hover{
     transform: scale(1.03);
+    color: black;
     cursor: pointer;
     text-decoration: underline 0.2vmax #2766AD;
 
@@ -179,6 +187,7 @@
     border-radius: 0.5vmax;
     border: solid 0.2vmax black;
     font-family: 'Oswald', sans-serif;
+    color: black;
     font-weight: 700;
     font-size: 1vmax;
     padding: 0.1vmax 1vmax;
