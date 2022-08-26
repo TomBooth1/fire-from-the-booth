@@ -3,7 +3,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     color: white;
-    font-family: "Arial Black";
+    /* font-family: "Arial Black"; */
+    font-family: 'Oswald', sans-serif;
     margin-top: 8vmax;
     padding-top: 6vmax;
 

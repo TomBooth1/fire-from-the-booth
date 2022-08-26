@@ -53,7 +53,7 @@
  transition-duration: 0.3s;
  height:16vmax;
  width: 18vmax;
- font-family: "Arial Black";
+ font-family: 'Oswald', sans-serif;
  overflow:auto;
     margin: 0 auto;
  }
