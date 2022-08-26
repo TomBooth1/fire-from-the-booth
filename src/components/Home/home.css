@@ -52,22 +52,29 @@
     #welcome-container{
        width: 50vmax;
        margin: 0 1vmax;
+       flex-direction: column;
     }
 
 .home-icon{
-    height: 16vmax;
+    height: 60vw;
+    margin-bottom: -1.5vmax;
 }
 
 .background-style-welcome{
-    height: 11vmax;
-    width: 20vmax;
-    border: solid 1.2vmin black;
+    height: 23vw;
+    width: 55vw;
+    border: solid 2vmin black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .welcome-paragraph{
-   font-size: 2vmax;
+   font-size: 5vw;
     margin: 2vmax;
+    font-weight: 900;
+    margin: auto auto;
 }
 
 .home-welcome{
@@ -79,6 +86,7 @@
     z-index: -1;
     height: 5vmax;
     transition-duration: 0.3s;
-    margin: 9vmax 14vmax;
+    margin: 20vh 14vmax;
+    margin-top: 16vh;
 }
 }

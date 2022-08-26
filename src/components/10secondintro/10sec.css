@@ -32,15 +32,15 @@
 
     .intro-paragraph{
         font-family: 'Oswald', sans-serif;
-        width: 20vmax;
-        font-size: 1.3vmax;
+        width: 60vw;
+        font-size: 4vw;
         color: white;
         transition-duration: 0.3s;
         margin: 1vmax;
     }
     
     .intro-icon{
-        height: 11vmax;
+        height: 28vw;
         transition-duration: 0.3s;
     }
 
