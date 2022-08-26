@@ -86,7 +86,8 @@
     z-index: -1;
     height: 5vmax;
     transition-duration: 0.3s;
-    margin: 20vh 14vmax;
-    margin-top: 16vh;
+    height: 57vh;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
 }
 }
