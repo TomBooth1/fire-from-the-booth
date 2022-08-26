@@ -91,19 +91,19 @@
     }
 
     .untrodden-logo{
-        height: 14vmax;
+        height: 22vmax;
         transition-duration: 0.3s;
         
      }
     
      .bootcamper-logo{
-        width: 18vmax;
+        width: 30vmax;
         transition-duration: 0.3s;
         
      }
     
      .fire-logo{
-        height: 14vmax;
+        height: 21vmax;
         transition-duration: 0.3s;
         margin-bottom: 1.5vmax;
         

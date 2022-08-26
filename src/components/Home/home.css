@@ -14,9 +14,9 @@
     align-items: center;
     padding: 1vmax 1vmax;
     z-index: -1;
-    height: 4vmax;
+    height: 5vmax;
     transition-duration: 0.3s;
-    margin: 19vmax 14vmax;
+    margin: 13vmax 14vmax;
 }
 
 .home-icon{
@@ -27,18 +27,20 @@
 }
 
 .welcome-paragraph{
-    font-size: 3vmax;
+    font-size: 4vmax;
     transition-duration: 0.3s;
+    margin: 2vmax;
 
 }
 
 .background-style-welcome{
+   
     background-color: #FEE600;
     border-radius: 1vmax;
     border: solid 1.5vmin black;
-    padding: 0px 20px;
-    /* width: ; */
-    max-height: 50vmax;
+    padding: 0px 0vmax;
+    width: 50vmax;
+    height:18vmax;
     transition-duration: 0.3s;
 
     /* box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23); */
@@ -65,6 +67,18 @@
 
 .welcome-paragraph{
    font-size: 2vmax;
-    margin: 1vmax;
+    margin: 2vmax;
+}
+
+.home-welcome{
+    display: flex;
+    /* box-shadow:0 5px 10px rgba(0,0,0,0.19), 0 3px 2px rgba(0,0,0,0.23); */
+    justify-content: center;
+    align-items: center;
+    padding: 1vmax 1vmax;
+    z-index: -1;
+    height: 5vmax;
+    transition-duration: 0.3s;
+    margin: 9vmax 14vmax;
 }
 }
