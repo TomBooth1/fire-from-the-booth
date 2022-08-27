@@ -65,9 +65,99 @@
 
 }
 
-.tech-stack-image{
-    width: 95%;
+.tech-image-container{
+    flex-direction: unset;
+    width: 80%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+/* grid-template-rows: repeat(4 10vw); */
+gap: 0.5rem;
+padding: 2vw;
+align-items: center;
+
+
 }
+
+
+.tech-stack-image{
+   
+    max-width: 100%;
+    max-height: 8vh;
+    margin: auto;
+    margin-top: auto;
+ }
+ 
+ .tech-stack-image:hover{
+     transition-duration: 0.3s;
+     transform: scale(1.04);
+     cursor: pointer;
+     
+     cursor: pointer;
+ }
+
+.tech-stack-image-1{
+   width: 6vw;
+   margin: auto auto
+}
+
+/* red hover */
+.tech-stack-image-1:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.04);
+    cursor: pointer;
+    filter: invert(42%) sepia(31%) saturate(1632%) hue-rotate(320deg) brightness(78%) contrast(121%);
+    cursor: pointer;
+}
+
+.tech-stack-image-2{
+    width: 6vw;
+    margin: auto auto
+ }
+ 
+ /* blue hover */
+ .tech-stack-image-2:hover{
+     transition-duration: 0.3s;
+     transform: scale(1.04);
+     filter:invert(38%) sepia(18%) saturate(3062%) hue-rotate(179deg) brightness(61%) contrast(89%);
+     cursor: pointer;
+ }
+
+ .tech-stack-image-3{
+    width: 6vw;
+    margin: auto auto
+ }
+ 
+ /* yellow hover */
+ .tech-stack-image-3:hover{
+     transition-duration: 0.3s;
+     transform: scale(1.04);
+     filter: brightness(0) saturate(100%) invert(81%) sepia(56%) saturate(862%) hue-rotate(358deg) brightness(104%) contrast(105%);
+     cursor: pointer;
+ }
+
+ .tech-stack-image-4{
+    width: 6vw;
+    margin: auto auto
+ }
+ 
+ .tech-stack-image-4:hover{
+     transition-duration: 0.3s;
+     transform: scale(1.04);
+     cursor: pointer;
+ }
+
+ .tech-stack-image-5{
+    width: 6vw;
+    margin: auto auto
+ }
+ 
+ .tech-stack-image-5:hover{
+     transition-duration: 0.3s;
+     transform: scale(1.04);
+     cursor: pointer;
+
+ }
+
 
 .cv-link{
     height: 9vmax;
@@ -76,18 +166,26 @@
 .cv-link:hover{
     transition-duration: 0.3s;
     transform: scale(1.04);
+    cursor: pointer;
 }
 
 
 
-@media screen and (max-width: 899px) {
 
 
-}
-
-@media screen and (max-width: 1235px) {
+@media screen and (max-width: 1023px) {
 .experience-main-text{
     font-size: 1.5vmax ;
 }
+
+.tech-image-container{
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+}
+
+@media screen and (max-width: 800px) {
+    .tech-image-container{
+        grid-template-columns: 1fr 1fr ;
+    }
 
 }

@@ -7,7 +7,7 @@ import { useState } from "react"
 
 function NavBar (props) {
 
-const [active , setActive] = useState("home")
+// const [active , setActive] = useState("home")
 
     return (
         <section className="nav-bar">
